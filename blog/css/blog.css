@@ -1,0 +1,62 @@
+body {
+  padding-top: 60px;
+}
+
+.post-title {
+  font-family: "Roboto Condensed";
+}
+
+.navbar {
+  font-family: "Roboto Condensed";
+}
+
+.navbar-nav {
+  font-size: 14px;
+}
+
+h2, h3 {
+  font-family: 'Roboto Condensed';
+}
+
+p {
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+.blog-sidebar {
+  padding: 8px;
+  background-color: #eaeaea;
+}
+
+.blog-sidebar.btn {
+  text-align: right;
+}
+
+.footer-addition {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #828282;
+}
+
+.footer-col-3 {
+  text-align: right;
+}
+
+@media (max-width: 767px) {
+  .footer-col-3 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .blog-post-contents p {
+    font-size: 18px;
+  }
+  .footer-heading {
+    text-align: center;
+  }
+  .footer-col {
+    text-align: center;
+  }
+}

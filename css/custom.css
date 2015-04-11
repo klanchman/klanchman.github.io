@@ -1,0 +1,96 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+}
+
+.navbar {
+  font-family: "Roboto Condensed";
+}
+
+#jtron-head {
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+  text-align: center;
+  color: white;
+  background: radial-gradient(#94BCA5, #326C83) fixed;
+}
+
+.jumbotron {
+  margin: 0px;
+}
+
+.jumbotron h1 {
+  font-weight: 300;
+}
+
+h2, h3 {
+  font-family: 'Roboto Condensed';
+}
+
+.btn {
+  font-family: 'Roboto Condensed';
+}
+
+p {
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+#socials a:hover .fa-circle {
+  opacity: .6;
+}
+
+#gplus a .fa-circle {
+  color: #DD4B39;
+}
+
+#linkedin a .fa-circle {
+  color: #1A85BC;
+}
+
+#twitter a .fa-circle {
+  color: #55acee;
+}
+
+#fbook a .fa-circle {
+  color: #3F5799;
+}
+
+#ghub a .fa-circle {
+  color: black;
+}
+
+#mail a .fa-circle {
+  color: green;
+}
+
+#who-i-am {
+  background-color: white;
+}
+
+#who-i-am hr {
+  margin-top: -5px;
+  border-color: black;
+  width: 105px;
+  margin-left: 0px;
+}
+
+#get-in-touch {
+  text-align: center;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: gray;
+  color: #d1d1d1;
+}
+
+footer a {
+  color: #eaeaea;
+}
+
+footer a:hover {
+  color: #eaeaea;
+}
