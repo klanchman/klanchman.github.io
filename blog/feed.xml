@@ -5,8 +5,8 @@
     <description>A blog by a tech nerd about random things. When I say &quot;random things,&quot; I probably mean tech things.</description>
     <link>http://kylelanchman.com/blog/</link>
     <atom:link href="http://kylelanchman.com/blog/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 11 Mar 2015 19:04:00 -0400</pubDate>
-    <lastBuildDate>Wed, 11 Mar 2015 19:04:00 -0400</lastBuildDate>
+    <pubDate>Fri, 23 Oct 2015 23:40:29 -0400</pubDate>
+    <lastBuildDate>Fri, 23 Oct 2015 23:40:29 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -93,7 +93,7 @@ Moreover, wearable technology is something that still isn’t mainstream. Apple 
 
 &lt;p&gt;However, I happened to add an NVIDIA ION graphics card to my pile of decommissioned computer parts recently, so I decided I’d toss it into the server and see what happened. To my surprise, without any extra intervention, it worked! It was still a little slow, but it was running at 1920x1080 and screen sharing wasn’t abysmal anymore. Neat!&lt;/p&gt;
 
-&lt;p&gt;But it was still on Mavericks, and every other Mac in the house was running Yosemite. That just won’t do. &lt;/p&gt;
+&lt;p&gt;But it was still on Mavericks, and every other Mac in the house was running Yosemite. That just won’t do.&lt;/p&gt;
 
 &lt;p&gt;Unfortunately, I was not using Clover as my bootloader, so a straight upgrade to Yosemite was not really in the cards. I decided I’d do a Time Machine backup of the server, wipe it, and do a fresh install of Yosemite with Clover. Of course, that didn’t go as planned.&lt;/p&gt;
 
@@ -101,7 +101,7 @@ Moreover, wearable technology is something that still isn’t mainstream. Apple 
 
 &lt;p&gt;I decided that I didn’t want to put any more time into the thing, and I’d just restore my Time Machine backup I so cleverly made. So I popped in my old installer for the working distro and booted it up.&lt;/p&gt;
 
-&lt;p&gt;For some reason Time Machine Restore was not an option, unlike on every other OS X installer I’ve used. &lt;/p&gt;
+&lt;p&gt;For some reason Time Machine Restore was not an option, unlike on every other OS X installer I’ve used.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;There I was. I had a useless backup, and a server without an operating system…&lt;/em&gt;&lt;/p&gt;
 </description>
