@@ -1,14 +1,12 @@
-/* Move down content because we have a fixed navbar that is 50px tall */
 body {
   padding-top: 50px;
-}
-
-.navbar {
-  font-family: "Roboto Condensed";
+  font-family: -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
 #jtron-head {
-  font-family: 'Roboto', 'Helvetica', sans-serif;
   text-align: center;
   color: white;
   background: radial-gradient(#94BCA5, #326C83) fixed;
@@ -22,17 +20,22 @@ body {
   font-weight: 300;
 }
 
-h2, h3 {
-  font-family: 'Roboto Condensed';
-}
-
-.btn {
-  font-family: 'Roboto Condensed';
+.jumbotron h4 {
+  font-weight: 300;
 }
 
 p {
-  font-family: 'Roboto';
   font-size: 16px;
+}
+
+p.smaller {
+  font-size: 14px;
+}
+
+#social-container {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding-top: 10px;
 }
 
 #socials a:hover .fa-circle {
@@ -65,18 +68,7 @@ p {
 
 #who-i-am {
   background-color: white;
-}
-
-#who-i-am hr {
-  margin-top: -5px;
-  border-color: black;
-  width: 105px;
-  margin-left: 0px;
-}
-
-#get-in-touch {
-  text-align: center;
-  margin-top: 10px;
+  padding-bottom: 15px;
 }
 
 #redditAppScreens img {
@@ -98,4 +90,10 @@ footer a {
 
 footer a:hover {
   color: #eaeaea;
+}
+
+@media only screen and (max-width : 480px) {
+  .jumbotron h4 {
+    font-size: 12px;
+  }
 }
