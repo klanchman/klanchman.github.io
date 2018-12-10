@@ -40,7 +40,7 @@ p.smaller {
   font-size: 20px;
 }
 
-#socials a:hover .fa-circle {
+#contact-btns a:hover .fa-circle {
   opacity: .6;
 }
 
