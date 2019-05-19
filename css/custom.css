@@ -33,7 +33,7 @@ p.smaller {
 }
 
 #social-container {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.15);
   border-radius: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -44,9 +44,6 @@ p.smaller {
   opacity: .6;
 }
 
-#gplus a .fa-circle {
-  color: #DD4B39;
-}
 
 #linkedin a .fa-circle {
   color: #1A85BC;
@@ -56,16 +53,12 @@ p.smaller {
   color: #55acee;
 }
 
-#fbook a .fa-circle {
-  color: #3F5799;
-}
-
 #ghub a .fa-circle {
   color: black;
 }
 
-#mail a .fa-circle {
-  color: green;
+#blog a .fa-circle {
+  color: black;
 }
 
 #who-i-am {
