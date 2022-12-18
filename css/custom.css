@@ -32,66 +32,121 @@ p.smaller {
   font-size: 14px;
 }
 
-#social-container {
-  background-color: rgba(0, 0, 0, 0.15);
+#links-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+
+  background-color: rgba(0, 0, 0, 0.25);
   border-radius: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 20px;
 }
 
+#links-container a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 16px 0;
+  grid-column: span 2;
+  color: white;
+
+  border-radius: 16px;
+  transition: background-color 0.33s ease-in-out;
+}
+
+#links-container a svg {
+  margin-right: 8px;
+}
+
+#links-container a:hover {
+  text-decoration: none;
+}
+
+/* Center dangling item in grid */
+#links-container a:last-child:nth-child(2n - 1) {
+  grid-column-end: 4;
+}
+
 #contact-btns a:hover .fa-circle {
   opacity: .6;
 }
 
-
-#linkedin a .fa-circle {
-  color: #1A85BC;
+#linkedin {
+  background-color: rgb(40, 103, 178);
 }
 
-#twitter a .fa-circle {
-  color: #55acee;
+#linkedin:hover {
+  background-color: rgb(40, 103, 178, 0.66);
 }
 
-#ghub a .fa-circle {
-  color: black;
+#twitter {
+  background-color: rgb(85, 172, 238);
 }
 
-#blog a .fa-circle {
-  color: black;
+#twitter:hover {
+  background-color: rgb(85, 172, 238, 0.66);
+}
+
+#mastodon {
+  background-color: rgb(86, 58, 204);
+}
+
+#mastodon:hover {
+  background-color: rgb(86, 58, 204, 0.66);
+}
+
+#ghub {
+  background-color: rgb(0, 0, 0);
+}
+
+#ghub:hover {
+  background-color: rgb(0, 0, 0, 0.66);
+}
+
+#blog {
+  background-color: rgb(171, 39, 99);
+}
+
+#blog:hover {
+  background-color: rgb(171, 39, 99, 0.66);
 }
 
 #who-i-am {
-  background-color: white;
   padding-bottom: 15px;
-}
-
-#redditAppScreens img {
-  max-width: 100%;
-  height: auto;
 }
 
 footer {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: gray;
-  color: #d1d1d1;
+  background-color: #505050;
+  color: #e1e1e1;
 }
 
 footer a {
-  color: #eaeaea;
+  text-decoration: underline;
+  color: white;
 }
 
 footer a:hover {
-  color: #eaeaea;
+  color: #e1e1e1;
 }
 
 @media only screen and (max-width : 480px) {
   .jumbotron h4 {
     font-size: 12px;
   }
-  #social-container {
+  #links-container {
     font-size: 14px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: black;
+    color: white;
   }
 }
