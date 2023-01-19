@@ -4,32 +4,32 @@ body {
     "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans",
     "Droid Sans", "Helvetica Neue", sans-serif;
+
+    background: radial-gradient(#94BCA5, #326C83) fixed;
+    color: white;
+}
+
+body a {
+  color: white;
+  text-decoration: underline;
+}
+
+body a:hover {
+  color: rgb(255, 255, 255, 0.66);
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0);
 }
 
 #jtron-head {
   text-align: center;
-  color: white;
-  background: radial-gradient(#94BCA5, #326C83) fixed;
-}
-
-.jumbotron {
-  margin: 0px;
+  background-color: rgba(0, 0, 0, 0);
+  margin-bottom: 0;
 }
 
 .jumbotron h1 {
   font-weight: 300;
-}
-
-.jumbotron h4 {
-  font-weight: 300;
-}
-
-p {
-  font-size: 16px;
-}
-
-p.smaller {
-  font-size: 14px;
 }
 
 #links-container {
@@ -37,7 +37,7 @@ p.smaller {
   grid-template-columns: repeat(4, 1fr);
   gap: 16px;
 
-  background-color: rgba(0, 0, 0, 0.25);
+  background-color: rgba(0, 0, 0, 0.33);
   border-radius: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -55,23 +55,17 @@ p.smaller {
 
   border-radius: 16px;
   transition: background-color 0.33s ease-in-out;
+
+  text-decoration: none;
 }
 
 #links-container a svg {
   margin-right: 8px;
 }
 
-#links-container a:hover {
-  text-decoration: none;
-}
-
 /* Center dangling item in grid */
 #links-container a:last-child:nth-child(2n - 1) {
   grid-column-end: 4;
-}
-
-#contact-btns a:hover .fa-circle {
-  opacity: .6;
 }
 
 #linkedin {
@@ -108,55 +102,48 @@ p.smaller {
 
 #anilist {
   background-color: rgb(192, 99, 255);
-  /* background-color: rgb(2, 169, 255, 0.66); */
 }
 
 #anilist:hover {
   background-color: rgb(192, 99, 255, 0.66);
-  /* background-color: rgb(2, 169, 255, 0.66); */
+}
+
+#last-fm {
+  background-color: rgb(185, 0, 0);
+}
+
+#last-fm:hover {
+  background-color: rgb(185, 0, 0, 0.66);
 }
 
 #blog {
-  background-color: rgb(171, 39, 99);
+  background-color: rgb(3, 167, 52);
 }
 
 #blog:hover {
-  background-color: rgb(171, 39, 99, 0.66);
+  background-color: rgb(3, 167, 52, 0.66);
 }
 
-#who-i-am {
-  padding-bottom: 15px;
-}
-
-footer {
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: #505050;
-  color: #e1e1e1;
-}
-
-footer a {
-  text-decoration: underline;
-  color: white;
-}
-
-footer a:hover {
-  color: #e1e1e1;
-}
-
-@media only screen and (max-width : 480px) {
-  .jumbotron h4 {
-    font-size: 12px;
+@media only screen and (max-width: 480px) {
+  body {
+    padding-top: 20px;
   }
+
   #links-container {
-    font-size: 14px;
+    font-size: 18px;
+
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+
+  .jumbotron p {
+    font-size: 18px;
   }
 }
 
 @media (prefers-color-scheme: dark) {
   body {
+    background: radial-gradient(#769684, #285668) fixed;
     background-color: black;
-    color: white;
   }
 }

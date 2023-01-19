@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
+  <meta name="description" content="I push buttons on a keyboard and software comes out">
   <meta name="author" content="Kyle Lanchman">
 
   <title>Kyle Lanchman</title>
@@ -20,61 +20,38 @@
 </head>
 
 <body>
-  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">Kyle Lanchman</a>
-      </div>
-      <div class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="https://blog.kylelanchman.com">Blog</a></li>
-        </ul>
-      </div><!--/.navbar-collapse -->
-    </div>
-  </div>
-
   <!-- Main jumbotron for a primary marketing message or call to action -->
   <div class="jumbotron" id="jtron-head">
     <div class="container">
       <h1>Kyle Lanchman</h1>
-      <h4>Software Developer | Tech Enthusiast | Warranty Voider</h4><br/>
+
+      <div class="col-md-6 col-md-offset-3">
+        <p>
+          Hi there! 👋<br/>
+          I'm a software developer building for iOS, web, and more.<br/>
+        </p>
+        <p>
+          I make <a href="https://ryuusei.moe" target="_blank" rel="noopener noreferrer">Ryuusei</a>,
+          an iOS app for tracking and discovering anime and manga with <a href="https://anilist.co" target="_blank" rel="noopener noreferrer">AniList.co</a>.
+        </p>
+      </div>
 
       <div id="links-container" class="col-md-6 col-md-offset-3">
+        <a href="https://blog.kylelanchman.com" id="blog" target="_blank" rel="noopener noreferrer">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+            <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+            <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
+          </svg>
+
+          Blog
+        </a>
+
         <a href="https://mstdn.io/@klanchman" id="mastodon" target="_blank" rel="noopener noreferrer me">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-mastodon" viewBox="0 0 16 16">
             <path d="M11.19 12.195c2.016-.24 3.77-1.475 3.99-2.603.348-1.778.32-4.339.32-4.339 0-3.47-2.286-4.488-2.286-4.488C12.062.238 10.083.017 8.027 0h-.05C5.92.017 3.942.238 2.79.765c0 0-2.285 1.017-2.285 4.488l-.002.662c-.004.64-.007 1.35.011 2.091.083 3.394.626 6.74 3.78 7.57 1.454.383 2.703.463 3.709.408 1.823-.1 2.847-.647 2.847-.647l-.06-1.317s-1.303.41-2.767.36c-1.45-.05-2.98-.156-3.215-1.928a3.614 3.614 0 0 1-.033-.496s1.424.346 3.228.428c1.103.05 2.137-.064 3.188-.189zm1.613-2.47H11.13v-4.08c0-.859-.364-1.295-1.091-1.295-.804 0-1.207.517-1.207 1.541v2.233H7.168V5.89c0-1.024-.403-1.541-1.207-1.541-.727 0-1.091.436-1.091 1.296v4.079H3.197V5.522c0-.859.22-1.541.66-2.046.456-.505 1.052-.764 1.793-.764.856 0 1.504.328 1.933.983L8 4.39l.417-.695c.429-.655 1.077-.983 1.934-.983.74 0 1.336.259 1.791.764.442.505.661 1.187.661 2.046v4.203z"/>
           </svg>
 
           Mastodon
-        </a>
-
-        <a href="https://twitter.com/klanchman" id="twitter" target="_blank" rel="noopener noreferrer">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
-            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
-          </svg>
-
-          Twitter
-        </a>
-
-        <a href="https://github.com/klanchman" id="ghub" target="_blank" rel="noopener noreferrer">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-          </svg>
-
-          GitHub
-        </a>
-
-        <a href="https://linkedin.com/in/kylelanchman" id="linkedin" target="_blank" rel="noopener noreferrer">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
-            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
-          </svg>
-          LinkedIn
         </a>
 
         <a href="https://anilist.co/user/klanchman/" id="anilist" target="_blank" rel="noopener noreferrer">
@@ -85,82 +62,44 @@
           AniList
         </a>
 
-        <a href="https://blog.kylelanchman.com" id="blog" target="_blank" rel="noopener noreferrer">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
-            <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
-            <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
+        <a href="https://last.fm/user/klanchman/" id="last-fm" target="_blank" rel="noopener noreferrer">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-music-note-list" viewBox="0 0 16 16">
+            <path d="M12 13c0 1.105-1.12 2-2.5 2S7 14.105 7 13s1.12-2 2.5-2 2.5.895 2.5 2z"/>
+            <path fill-rule="evenodd" d="M12 3v10h-1V3h1z"/>
+            <path d="M11 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 16 2.22V4l-5 1V2.82z"/>
+            <path fill-rule="evenodd" d="M0 11.5a.5.5 0 0 1 .5-.5H4a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 7H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 3H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"/>
           </svg>
 
-          Blog
+          Last.fm
+        </a>
+
+
+        <a href="https://github.com/klanchman" id="ghub" target="_blank" rel="noopener noreferrer">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+          </svg>
+
+          GitHub
+        </a>
+
+        <!-- Included for completeness, but...
+        <a href="https://twitter.com/klanchman" id="twitter" target="_blank" rel="noopener noreferrer">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+          </svg>
+
+          Twitter
+        </a>
+        -->
+
+        <a href="https://linkedin.com/in/kylelanchman" id="linkedin" target="_blank" rel="noopener noreferrer">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+          </svg>
+          LinkedIn
         </a>
       </div>
     </div>
   </div>
-
-  <div id="who-i-am" class="container">
-    <h2>Who I Am</h2>
-
-    <h3>Software Developer...</h3>
-    <p>
-        I'm a software developer, and I love what I do. I enjoy working on all sorts of projects, especially mobile and full-stack web application development.
-        People interact with all kinds of software every day. It's my goal to ensure when they use anything I wrote, they have the best experience possible.
-    </p>
-    <p>
-        Whenever I find some spare time and I have an urge to create something, I like to work on personal side projects.
-    </p>
-    <p>
-        Sometimes it's just something small, like using my Raspberry Pi to automate my lights and camera based on my location and the time of day.
-    </p>
-    <p>
-        Other times it's a full-blown application. I worked on an iOS app for Reddit for a while. I got pretty far along, but between more apps being released and Reddit changing how to access their API, I decided to stop.
-    </p>
-    <p>
-        I also have an iOS app for <a href="https://anilist.co" target="_blank" rel="noopener noreferrer">AniList</a>.
-        It's called <a href="https://ryuusei.moe" target="_blank" rel="noopener noreferrer">Ryuusei</a>, and it's available on the App Store!
-        There probably isn't a huge market for this app, but I'm doing it more for fun and my own use than anything.
-    </p>
-
-    <h3>...And a Bit More</h3>
-    <p>
-        Besides software development, I'm interested in learning more about user interface and graphic design.
-        I have a deep appreciation for applications that have a clean and functional interface. Whenever I am working on the UI for a project, my goal is to make it something that I would enjoy using myself.
-    </p>
-    <p>
-        I also have an interest in system administration and DevOps. I've managed systems in an office environment, I love my ever-growing <a href="https://www.reddit.com/r/homelab/" target="_blank" rel="noopener noreferrer">homelab</a>, and I like setting up CI/CD for work projects and side projects.
-    </p>
-
-    <h3>Tech Enthusiast</h3>
-    <p>
-        I love just about anything related to technology. I'm always reading about new technologies, languages, frameworks, and tools. It's so satisfying to find new tech to learn about and try out.
-    </p>
-
-    <h3>Warranty Voider</h3>
-    <p>
-        I love to experiment with my devices to see what I can do with them. I've voided the warranty on nearly every device I've owned, usually through software modifications.
-    </p>
-    <p>
-        It started with an MP3 player: I flashed a customizable 3rd party firmware on it. Later I started using Android phones. I rooted and flashed custom ROMs on every one of them. Then I got an iPhone, so I just <em>had</em> to jailbreak it.
-    </p>
-    <p>
-        Lately I haven't been voiding warranties though, instead hacking away on a Raspberry Pi or in a Proxmox VM.
-    </p>
-
-    <h3>Writer and Photographer?</h3>
-    <p>
-        Well, sort of. I enjoy things other than tech, too. (I swear!)
-    </p>
-    <p>
-        I really like writing; I keep a <a href="https://blog.kylelanchman.com">small blog</a> that I update occasionally when I think of something I want to write about. Admittedly, those updates are very infrequent.
-    </p>
-    <p>
-        I also enjoy photography, though I'm not particularly good at it. I try to bring my camera whenever I know I could see something interesting, but usually I'll make do with my phone's camera.
-    </p>
-  </div>
-
-  <footer>
-    <div class="container">
-      Created with plain old HTML and a sprinkle of <a href="http://getbootstrap.com" target="_blank" rel="noopener noreferrer">Bootstrap</a>
-    </div>
-  </footer>
 </body>
 </html>
